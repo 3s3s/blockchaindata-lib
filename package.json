@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/3s3s/blockchaindata-lib.git"
   },
+  "dependencies": {
+    "bip65": "latest",
+    "bitcoinjs-lib": "latest",
+    "node-fetch": "^2.6.0"
+  },
   "keywords": [
     "bitcoin",
     "blockchain",
