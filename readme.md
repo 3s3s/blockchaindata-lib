@@ -1,19 +1,30 @@
-Install
+## Documentation
 
+Presently, we do not have any formal documentation other than our [example](httphttps://github.com/3s3s/blockchaindata-lib/tree/master/test:// "example")
+
+## Installation
+
+``` bash
 npm install blockchaindata-lib
+```
+## API
 
-Using
+`SaveTextToBlockchain( dataString )`
+dataString - any string that will be saved to blockchain
 
-try example: test/example.js
+`SaveJSONToBlockchain( objectJSON )`
+objectJSON - any json object that will be savet to blockchain
 
-API
+`SaveFileToBlockchain( data )`
+data - the javascript File object 
 
-updateNetwork(url, user, password, network = "tBTC")
+`GetObjectFromBlockchain( txid )`
+txid - transaction id
 
-SaveTextToBlockchain(dataString, network = "tBTC")
 
-SaveJSONToBlockchain(buffer, network = "tBTC")
+##### Return values
+All "Save" functions are returned the json object 
+`{result: boolean, message: string, txid: string}`
 
-SaveFileToBlockchain(data, network = "tBTC")
-
-GetObjectFromBlockchain(txid, network = "tBTC")
+function GetObjectFromBlockchain returned the json object
+`{type: string, base64: string}`
