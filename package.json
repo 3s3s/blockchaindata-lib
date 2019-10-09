@@ -1,6 +1,6 @@
 {
   "name": "blockchaindata-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utilites for blockchain data",
   "main": "main.js",
   "scripts": {
