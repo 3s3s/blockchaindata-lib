@@ -1,6 +1,6 @@
 ## Documentation
 
-Presently, we do not have any formal documentation other than our [example](https://github.com/3s3s/blockchaindata-lib/tree/master/test:// "example")
+Presently, we do not have any formal documentation other than our [example](https://github.com/3s3s/blockchaindata-lib/tree/master/test/ "example")
 
 ## Installation
 
